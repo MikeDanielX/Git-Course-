@@ -50,6 +50,16 @@ Deshacer las versiones:
 
     //git reset --hard fa16fa
         --- desde fa16fa todos los cambios que habias hecho, se eliminan de una 
+    
+    //rm index.html 
+        --- Eliminar ficheros 
+    ///git restore index.html 
+        --- Recuperar ficheros 
+
+Si quieres meter todo el directorio (guardarlo)
+    //git add . 
+    //git commit -m "Create navbar"
+    //git log --oneline
 
 
 En la terminal:
